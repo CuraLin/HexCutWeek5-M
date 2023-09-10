@@ -1,3 +1,29 @@
-.index-title {
-  font-size: 100px;
+.index{
+  margin-left: 296px;
+}
+.modal__check--color{
+  border: 2px solid #212529;
+
+}
+.material-icons{
+  cursor: pointer;
+}
+.modal__img{
+  width: 141px;
+  height: 141px;
+ 
+}
+
+.expand_more{
+display: none;
+}
+.expand_less{
+  display: block;
+}
+
+.collapsed .expand_more {
+  display: block;
+}
+.collapsed .expand_less{
+  display: none;
 }

@@ -1,4 +1,25 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  position: fixed;
+  min-width: 296px;
+
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav {
+  a:hover {
+    color: #198754 !important; 
+  }
+}
+
+.nav--hover:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+
 }
